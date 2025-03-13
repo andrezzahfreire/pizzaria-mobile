@@ -1,0 +1,87 @@
+/* Estilos básicos do enunciado */
+body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    background-color:#E4E4E4;
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', sans-serif;
+    font-size:12px;
+    height:100vh;
+    margin:0;
+    padding:0;
+    width:100%;
+}
+.app-lista {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width:99%;
+    height: 95%;
+}
+.superior {
+    flex: 10;
+    overflow: auto;
+}
+.inferior {
+    flex: 1;
+}
+.linha {
+    position: relative;
+    padding: 10px;
+    border: solid;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.botao-novo {
+    width: 100%;
+    height: 99%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.app-cadastro {
+    display: none;
+    flex-direction: column;
+    width:99%;
+    height: 90%;
+}
+.imagem {
+    flex: 4;
+    border: solid;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form {
+    flex: 4;
+}
+.form-linha {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.form-linha-esq {
+    flex: 1;
+}
+.form-linha-dir {
+    flex: 5;
+}
+.botoes {
+    padding-top: 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.botao {
+    flex: 1;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid whitesmoke;
+    margin: 5px;
+}
+/* Fallback para input de arquivo se não houver camera plugin */
+#inputFoto {
+    display: none; /* inicialmente oculto, mostramos só no browser */
+}
